@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "scripts": {
+    "start:db": "clear && json-server -w db.json",
+    "start:parcel": "clear && parcel index.html"
+  }
+}
